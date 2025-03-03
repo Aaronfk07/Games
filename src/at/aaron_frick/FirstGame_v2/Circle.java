@@ -1,4 +1,4 @@
-package at.aaron_frick.Aufgabe1_Lists.FirstGame_v2;
+package at.aaron_frick.FirstGame_v2;
 
 import org.newdawn.slick.Graphics;
 

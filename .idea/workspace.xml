@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="refactored to new hub" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Aaronfk07"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Aaronfk07/Games.git",
+    "accountId": "4be09b55-d616-4bde-9bb6-5e10246fdcbb"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="1YTQfL2MEkLFTDMSD3qqivUvMBV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,6 +39,7 @@
     "Application.AnimationTest.executor": "Run",
     "Application.adaptive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/aaron/Games"
   }
@@ -56,32 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582964206231</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactored to new hub">
+      <option name="closed" value="true" />
+      <created>1741001445829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741001445829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="369" y="83" key="FileChooserDialogImpl" timestamp="1582964295956">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="369" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582964295956" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1582964309398">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1582964309397">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1582964309397">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1582964309398">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1582964302246">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582964302246" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactored to new hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored to new hub" />
   </component>
 </project>
