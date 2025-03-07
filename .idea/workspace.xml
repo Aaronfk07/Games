@@ -4,118 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add new user authentication feature to improve security">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="renamed src to Games">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v1/Circle_TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v1/Objects_Game$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v1/Objects_Game$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v1/Objects_Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Circle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Circle$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Objects_Game_v2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Oval$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Oval$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Oval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Rectangle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Rectangle$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/FirstGame_v2/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/Aufgabe1_Lists/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe1_Lists/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/Aufgabe1_Lists/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe1_Lists/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/Aufgabe1_Lists/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe1_Lists/Ellipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/Aufgabe1_Lists/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe1_Lists/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/Aufgabe1_Lists/adaptive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe1_Lists/adaptive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v1/Circle_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v1/Circle_TEST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v1/Objects_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v1/Objects_Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v2/Objects_Game_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Objects_Game_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v2/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Oval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/aaron_frick/FirstGame_v2/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/AlphaMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/AlphaMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/AnimationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/AnimationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/AntiAliasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/AntiAliasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/BigImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/BigImageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/BigSpriteSheetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/BigSpriteSheetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/CachedRenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/CachedRenderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/CanvasContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/CanvasContainerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/CanvasSizeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/CanvasSizeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ClipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ClipTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/CopyAreaAlphaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/CopyAreaAlphaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/CurveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/CurveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/DeferredLoadingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/DeferredLoadingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/DistanceFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/DistanceFieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/DoubleClickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/DoubleClickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/DuplicateEmitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/DuplicateEmitterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/FlashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/FlashTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/FontPerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/FontPerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/FontTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/FontTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GeomAccuracyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GeomAccuracyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GeomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GeomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GeomUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GeomUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GeomUtilTileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GeomUtilTileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GradientImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GradientImageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GradientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GradientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/GraphicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/GraphicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageBufferEndianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageBufferEndianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageBufferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageCornerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageCornerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageGraphicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageGraphicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageMemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageMemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageReadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ImageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/InkscapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/InkscapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/InputProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/InputProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/InputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/IsoTiledTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/IsoTiledTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/KeyRepeatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/KeyRepeatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/LameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/LameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/LineRenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/LineRenderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/MorphSVGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/MorphSVGTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/MorphShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/MorphShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/MusicListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/MusicListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/NavMeshTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/NavMeshTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/PackedSheetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/PackedSheetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ParticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ParticleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/PedigreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/PedigreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/PolygonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/PolygonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/PureFontTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/PureFontTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SavedStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SavedStateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ScalableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ScalableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SlickCallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SlickCallableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SoundPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SoundPositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SoundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SoundTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SoundURLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SoundURLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/SpriteSheetFontTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/SpriteSheetFontTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/StateBasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/StateBasedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TestBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TestBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TexturePaintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TexturePaintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TileMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TileMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TransformTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TransformTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TransformTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TransformTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TransitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TransitionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TransparentColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TransparentColorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/TrueTypeFontPerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/TrueTypeFontPerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/UnicodeFontTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/UnicodeFontTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/states/TestState1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/states/TestState1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/states/TestState2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/states/TestState2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/states/TestState3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/states/TestState3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/states/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/states/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/GameData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/ItemContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/ItemContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/ObjectParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/ObjectParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/XMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/XMLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/newdawn/slick/tests/xml/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Games/org/newdawn/slick/tests/xml/package.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,13 +102,22 @@
       <option name="project" value="LOCAL" />
       <updated>1741001701386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="renamed src to Games">
+      <option name="closed" value="true" />
+      <created>1741001899764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741001899764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactored to new hub" />
     <MESSAGE value="refactored" />
     <MESSAGE value="Add new user authentication feature to improve security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new user authentication feature to improve security" />
+    <MESSAGE value="renamed src to Games" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed src to Games" />
   </component>
 </project>
