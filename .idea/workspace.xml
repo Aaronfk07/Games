@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="finished_SnowGame_v1">
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/snowflake.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="tryed Image">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/ImageActor/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/ImageActor/SnowWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/ImageActor/Snowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/pngsnowflake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/snowflake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/snowflake_png.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,6 +56,8 @@
   "keyToString": {
     "Application.AlphaMapTest.executor": "Run",
     "Application.AnimationTest.executor": "Run",
+    "Application.BigImageTest.executor": "Run",
+    "Application.ImageTest.executor": "Run",
     "Application.SnowWorld.executor": "Run",
     "Application.adaptive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,7 +68,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron\Games\testdata" />
+      <recent name="C:\Users\aaron\Games\Games\at\aaron_frick\games\ImageActor" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.aaron_frick.games.ImageActor" />
       <recent name="at.aaron_frick.games.snowworld" />
     </key>
   </component>
@@ -77,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.BigImageTest" />
+      <module name="Slick2DTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.newdawn.slick.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigImageTest" />
         <item itemvalue="Application.AlphaMapTest" />
       </list>
     </recent_temporary>
@@ -159,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741346344546</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Unversioned Files">
+      <option name="closed" value="true" />
+      <created>1741350116733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741350116733</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tryed Image">
+      <option name="closed" value="true" />
+      <created>1741350142977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741350142977</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +214,8 @@
     <MESSAGE value="added_unversioned_Files_and_tested" />
     <MESSAGE value="refactored" />
     <MESSAGE value="finished_SnowGame_v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished_SnowGame_v1" />
+    <MESSAGE value="Unversioned Files" />
+    <MESSAGE value="tryed Image" />
+    <option name="LAST_COMMIT_MESSAGE" value="tryed Image" />
   </component>
 </project>
