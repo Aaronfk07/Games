@@ -1,30 +1,26 @@
 package at.aaron_frick.games.snowworld;
 
 import org.newdawn.slick.Graphics;
-import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
 import java.util.Random;
 
 public class snowflake implements Actor {
 
-    private Size size;
-
- //   private Image image;
+    // private Image image;
     private float x;
     private float y;
     private float speed;
     private float diameter;
 
 
-    public void setRandomPostion(){
+    public void setRandomPosition(){
         Random random = new Random();
         this.x = random.nextInt(800);
         this.y = random.nextInt(600) - 600;
     }
     public snowflake(Size size) throws SlickException {
-        this.size = size;
-  //  this.image = new Image("res/icon.png");
+        //  this.image = new Image("res/icon.png");
 
         switch (size) {
             case SMALL:
@@ -40,11 +36,13 @@ public class snowflake implements Actor {
                 this.diameter = 12;
                 break;
         }
+
+        setRandomPosition();
     }
 
     @Override
     public void render(Graphics graphics) {
-        graphics.drawOval(this.x, this.y, this.diameter, this.diameter);
+        graphics.fillOval(this.x, this.y, this.diameter, this.diameter);
        // graphics.drawImage("res/icon.png",this.x,this.y,);
     }
 
@@ -52,7 +50,7 @@ public class snowflake implements Actor {
     public void update(int delta) {
         this.y += (float) delta / this.speed;
         if (this.y >= 600) {
-           setRandomPostion();
+           setRandomPosition();
 
         }
 
