@@ -1,4 +1,4 @@
-package at.aaron_frick.Aufgabe_1_JavaGames;
+package at.aaron_frick.games.Aufgabe_1_JavaGames;
 
 import org.newdawn.slick.*;
 import java.util.ArrayList;

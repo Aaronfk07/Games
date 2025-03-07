@@ -4,13 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="renamed src to Games">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="added_unversioned_Files_and_tested">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/SnowWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/snowflake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe_1_JavaGames/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Aufgabe_1_JavaGames/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe_1_JavaGames/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Aufgabe_1_JavaGames/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe_1_JavaGames/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Aufgabe_1_JavaGames/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe_1_JavaGames/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Aufgabe_1_JavaGames/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/Aufgabe_1_JavaGames/adaptive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Aufgabe_1_JavaGames/adaptive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v1/Circle_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v1/Circle_TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v1/Objects_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v1/Objects_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Objects_Game_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v2/Objects_Game_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v2/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/FirstGame_v2/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/FirstGame_v2/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/Rectangle$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/Aufgabe1_Lists/adaptive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v1/Circle_TEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v1/Objects_Game$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v1/Objects_Game$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v1/Objects_Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Circle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Circle$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Objects_Game_v2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Oval$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Oval$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Oval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Rectangle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Rectangle$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/FirstGame_v2/Text.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,25 +70,35 @@
     &quot;accountId&quot;: &quot;4be09b55-d616-4bde-9bb6-5e10246fdcbb&quot;
   }
 }</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="1YTQfL2MEkLFTDMSD3qqivUvMBV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnimationTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.adaptive.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aaron/Games&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphaMapTest.executor": "Run",
+    "Application.AnimationTest.executor": "Run",
+    "Application.SnowWorld.executor": "Run",
+    "Application.adaptive.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aaron/Games",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.aaron_frick.games.snowworld" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AlphaMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AlphaMapTest" />
@@ -110,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741001899764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished_Aufgabe_1_Java_Games">
+      <option name="closed" value="true" />
+      <created>1741341958046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741341958046</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added_unversioned_Files_and_tested">
+      <option name="closed" value="true" />
+      <created>1741341997718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741341997718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +187,8 @@
     <MESSAGE value="refactored" />
     <MESSAGE value="Add new user authentication feature to improve security" />
     <MESSAGE value="renamed src to Games" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed src to Games" />
+    <MESSAGE value="finished_Aufgabe_1_Java_Games" />
+    <MESSAGE value="added_unversioned_Files_and_tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="added_unversioned_Files_and_tested" />
   </component>
 </project>

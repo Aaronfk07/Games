@@ -1,4 +1,4 @@
-package at.aaron_frick.FirstGame_v1;
+package at.aaron_frick.games.FirstGame_v1;
 
 import org.newdawn.slick.*;
 
