@@ -7,7 +7,6 @@ import java.util.List;
 public class SnowWorld_v2 extends BasicGame {
 
     private List<Actor> actors;
-    private AngelCodeFont font;
 
     public SnowWorld_v2(String title) {
         super(title);
@@ -15,8 +14,6 @@ public class SnowWorld_v2 extends BasicGame {
 
     @Override
     public void init(GameContainer gameContainer) throws SlickException {
-
-        AngelCodeFont font = new AngelCodeFont("testdata/demo2.fnt","testdata/demo2_00.tga");
 
         this.actors = new ArrayList<>();
 
@@ -36,8 +33,6 @@ public class SnowWorld_v2 extends BasicGame {
         public void update (GameContainer gameContainer,int delta) throws SlickException {
 
 
-            font.drawString(80, 5, "A Font Example", Color.blue);
-
             for (Actor flake : this.actors) {
                 flake.update(delta);
             }
@@ -46,8 +41,6 @@ public class SnowWorld_v2 extends BasicGame {
 
         @Override
         public void render (GameContainer gameContainer, Graphics graphics) throws SlickException {
-
-
 
             for (Actor flake : this.actors) {
                 flake.render(graphics);

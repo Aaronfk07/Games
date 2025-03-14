@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Unversionded files">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Snowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Text.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Unversioned Files">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/SnowWorld_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Snowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Snowworld/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/SnowWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Snowworld/SnowWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/snowworld/snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/Snowworld/snowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/Actor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/SnowWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/SnowWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake$Size.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake$Size.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/snowworld/snowflake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/Text.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +45,9 @@
     &quot;accountId&quot;: &quot;4be09b55-d616-4bde-9bb6-5e10246fdcbb&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1YTQfL2MEkLFTDMSD3qqivUvMBV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,6 +65,7 @@
     "Application.ImageTest.executor": "Run",
     "Application.SnowWorld.executor": "Run",
     "Application.SnowWorld_v2.executor": "Run",
+    "Application.SnowWorld_v3.executor": "Run",
     "Application.adaptive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -81,6 +80,7 @@
       <recent name="C:\Users\aaron\Games\Games\at\aaron_frick\games\ImageActor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.aaron_frick.games.UserInput" />
       <recent name="at.aaron_frick.games.SnowWorld_v2" />
       <recent name="at.aaron_frick.games.ImageActor" />
       <recent name="at.aaron_frick.games.snowworld" />
@@ -242,7 +242,39 @@
       <option name="project" value="LOCAL" />
       <updated>1741352758000</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SnowWorld.java finished">
+      <option name="closed" value="true" />
+      <created>1741947020294</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741947020294</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SnowWorld_V2.java finished trying to increase text size">
+      <option name="closed" value="true" />
+      <created>1741947050563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741947050563</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update workspace.xml to reflect new file paths and add unversioned files&#10;&#10;- Change file paths in the Default Changelist to point to SnowWorld_v2 files&#10;- Add new configuration for FontTest&#10;- Include additional recent items for project navigation&#10;- Update task summary and count for local tasks&#10;- Modify last commit message for clarity">
+      <option name="closed" value="true" />
+      <created>1741947147818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741947147818</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Unversioned Files">
+      <option name="closed" value="true" />
+      <created>1741947175184</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741947175184</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,10 +285,13 @@
     <MESSAGE value="added_unversioned_Files_and_tested" />
     <MESSAGE value="refactored" />
     <MESSAGE value="finished_SnowGame_v1" />
-    <MESSAGE value="Unversioned Files" />
     <MESSAGE value="tryed Image" />
     <MESSAGE value="added_ImageActor_Snowflakes" />
     <MESSAGE value="Unversionded files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversionded files" />
+    <MESSAGE value="SnowWorld.java finished" />
+    <MESSAGE value="SnowWorld_V2.java finished trying to increase text size" />
+    <MESSAGE value="Update workspace.xml to reflect new file paths and add unversioned files&#10;&#10;- Change file paths in the Default Changelist to point to SnowWorld_v2 files&#10;- Add new configuration for FontTest&#10;- Include additional recent items for project navigation&#10;- Update task summary and count for local tasks&#10;- Modify last commit message for clarity" />
+    <MESSAGE value="Unversioned Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Files" />
   </component>
 </project>
