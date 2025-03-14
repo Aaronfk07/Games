@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Unversioned Files">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Rocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/SnowWorld_v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Snowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/UserInput/bullet.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files.">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/Starlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/galaxy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/meteor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/spacecraft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/star.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/stars_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/stars_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SnowWorld_v2/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/SnowWorld_v2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SnowWorld_v2/Text.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +68,13 @@
     "Application.BigImageTest.executor": "Run",
     "Application.FontTest.executor": "Run",
     "Application.ImageTest.executor": "Run",
+    "Application.ObjectParserTest.executor": "Run",
+    "Application.ParticleTest.executor": "Run",
     "Application.SnowWorld.executor": "Run",
     "Application.SnowWorld_v2.executor": "Run",
     "Application.SnowWorld_v3.executor": "Run",
+    "Application.SpaceShooter.executor": "Run",
+    "Application.TileMapTest.executor": "Run",
     "Application.adaptive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,6 +89,7 @@
       <recent name="C:\Users\aaron\Games\Games\at\aaron_frick\games\ImageActor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.aaron_frick.games.SpaceShooter" />
       <recent name="at.aaron_frick.games.UserInput" />
       <recent name="at.aaron_frick.games.SnowWorld_v2" />
       <recent name="at.aaron_frick.games.ImageActor" />
@@ -274,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741947175184</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add Rocket and SnowWorld v3 classes with actor interface implementation&#10;&#10;- Create `Rocket` class to manage rocket positioning and rendering.&#10;- Implement `SnowWorld_v3` for game setup, including snowflakes and user input.&#10;- Introduce `Actor` interface for consistent update and render methods.&#10;- Add `bullet` class for projectile functionality.&#10;- Implement `Snowflake` class for falling effects, with multiple sizes. &#10;- Create `Text` class to display in-game messages.">
+      <option name="closed" value="true" />
+      <created>1741950498117</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741950498117</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files.">
+      <option name="closed" value="true" />
+      <created>1741950514145</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741950514145</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,6 +318,8 @@
     <MESSAGE value="SnowWorld_V2.java finished trying to increase text size" />
     <MESSAGE value="Update workspace.xml to reflect new file paths and add unversioned files&#10;&#10;- Change file paths in the Default Changelist to point to SnowWorld_v2 files&#10;- Add new configuration for FontTest&#10;- Include additional recent items for project navigation&#10;- Update task summary and count for local tasks&#10;- Modify last commit message for clarity" />
     <MESSAGE value="Unversioned Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Files" />
+    <MESSAGE value="Add Rocket and SnowWorld v3 classes with actor interface implementation&#10;&#10;- Create `Rocket` class to manage rocket positioning and rendering.&#10;- Implement `SnowWorld_v3` for game setup, including snowflakes and user input.&#10;- Introduce `Actor` interface for consistent update and render methods.&#10;- Add `bullet` class for projectile functionality.&#10;- Implement `Snowflake` class for falling effects, with multiple sizes. &#10;- Create `Text` class to display in-game messages." />
+    <MESSAGE value="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files." />
   </component>
 </project>
