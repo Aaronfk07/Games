@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files.">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Rocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/Starlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/galaxy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/meteor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/spacecraft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/stars_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/stars_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects.">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741950514145</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Unveersinedfiles">
+      <option name="closed" value="true" />
+      <created>1741959404197</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959404197</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects.">
+      <option name="closed" value="true" />
+      <created>1741959428218</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959428218</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,6 +321,8 @@
     <MESSAGE value="Unversioned Files" />
     <MESSAGE value="Add Rocket and SnowWorld v3 classes with actor interface implementation&#10;&#10;- Create `Rocket` class to manage rocket positioning and rendering.&#10;- Implement `SnowWorld_v3` for game setup, including snowflakes and user input.&#10;- Introduce `Actor` interface for consistent update and render methods.&#10;- Add `bullet` class for projectile functionality.&#10;- Implement `Snowflake` class for falling effects, with multiple sizes. &#10;- Create `Text` class to display in-game messages." />
     <MESSAGE value="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files." />
+    <MESSAGE value="Unveersinedfiles" />
+    <MESSAGE value="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects." />
   </component>
 </project>
