@@ -1,4 +1,4 @@
-package at.aaron_frick.games.snowworld;
+package at.aaron_frick.games.Snowworld;
 
 
 import org.newdawn.slick.*;
