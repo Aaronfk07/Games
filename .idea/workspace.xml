@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects.">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization.">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionActors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/enemy1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlphaMapTest.executor": "Run",
-    "Application.AnimationTest.executor": "Run",
-    "Application.BigImageTest.executor": "Run",
-    "Application.FontTest.executor": "Run",
-    "Application.ImageTest.executor": "Run",
-    "Application.ObjectParserTest.executor": "Run",
-    "Application.ParticleTest.executor": "Run",
-    "Application.SnowWorld.executor": "Run",
-    "Application.SnowWorld_v2.executor": "Run",
-    "Application.SnowWorld_v3.executor": "Run",
-    "Application.SpaceShooter.executor": "Run",
-    "Application.TileMapTest.executor": "Run",
-    "Application.adaptive.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aaron/Games",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlphaMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BigImageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FontTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectParserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParticleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SnowWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SnowWorld_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SnowWorld_v3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpaceShooter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TileMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.adaptive.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aaron/Games&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aaron\Games\testdata" />
@@ -301,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741959428218</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization.">
+      <option name="closed" value="true" />
+      <created>1741959971368</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959971368</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,6 +337,7 @@
     <MESSAGE value="Refactor Text and SnowWorld classes to remove unneeded font references, update workspace.xml with new file paths, and organize unversioned files." />
     <MESSAGE value="Unveersinedfiles" />
     <MESSAGE value="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects." />
+    <MESSAGE value="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization." />
   </component>
 </project>
