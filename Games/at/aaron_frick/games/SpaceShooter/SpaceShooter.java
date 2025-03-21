@@ -94,9 +94,9 @@ public class SpaceShooter extends BasicGame {
         this.collisionHandler.checkCollisions();
         checkGameOver();
 
-//        if(gameContainer.getInput().isKeyDown(Input.KEY_L)){
-//            createBullet();
-//        }
+        if(gameContainer.getInput().isKeyDown(Input.KEY_L)){
+            createBullet();
+        }
     }
 
     private void checkGameOver() {
