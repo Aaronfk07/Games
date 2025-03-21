@@ -1,4 +1,4 @@
-package at.aaron_frick.games.SpaceShooter;
+package at.aaron_frick.games.SpaceShooter.actors;
 
 
 import org.newdawn.slick.GameContainer;

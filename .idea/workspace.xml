@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="unversioned Files">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions.">
+      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/CollisionActors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Rocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/background.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Rocket.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star$Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/background.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -338,8 +353,27 @@
       <option name="project" value="LOCAL" />
       <updated>1742554789880</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions.">
+      <option name="closed" value="true" />
+      <created>1742555990343</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1742555990343</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactored to new hub" />
@@ -363,6 +397,7 @@
     <MESSAGE value="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization." />
     <MESSAGE value="Add collision detection for bullets and enemies in SpaceShooter game&#10;&#10;- Implement `CollisionActors` interface for Bullet and Enemy classes.&#10;- Create `checkCollisions` method in `SpaceShooter` class to handle bullet-enemy interactions.&#10;- Modify Bullet and Enemy classes to include collision shape methods.&#10;- Initialize enemy instances dynamically using random positions during game setup." />
     <MESSAGE value="unversioned Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="unversioned Files" />
+    <MESSAGE value="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions." />
   </component>
 </project>

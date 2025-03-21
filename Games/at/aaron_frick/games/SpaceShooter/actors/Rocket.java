@@ -1,19 +1,23 @@
-package at.aaron_frick.games.SpaceShooter;
+package at.aaron_frick.games.SpaceShooter.actors;
 
 
 import org.newdawn.slick.*;
+import org.newdawn.slick.geom.Rectangle;
+import org.newdawn.slick.geom.Shape;
 
-public class Rocket implements Actor {
+public class Rocket implements CollisionActors {
 
     private Image rocketimage;
     private float x;
     private float y;
+    private Shape shape;
 
     public Rocket(float x, float y) throws SlickException {
         Image tmp = new Image("testdata/spacecraft.png");
         this.rocketimage = tmp.getScaledCopy(100, 100);
         this.y = y;
         this.x = x;
+        this.shape = new Rectangle(x, y, rocketimage.getWidth(), rocketimage.getHeight());
     }
 
 
@@ -37,6 +41,8 @@ public class Rocket implements Actor {
     if(gameContainer.getInput().isKeyDown(Input.KEY_S)){
             this.y++;
         }
+        
+        this.shape.setLocation(x, y);
     }
 
 
@@ -46,6 +52,11 @@ public class Rocket implements Actor {
 
     public float getY() {
         return y;
+    }
+
+    @Override
+    public Shape getCollisionShape() {
+        return shape;
     }
 
 }
