@@ -12,8 +12,8 @@ import java.util.Random;
 public class Enemy implements CollisionActors {
     private float x,y;
     private float speed;
-    private Image enemyImage;
-    private final Shape shape;
+    private final Image enemyImage;
+    private  Shape shape;
 
     public Enemy(float x, float y, float speed) throws SlickException {
         Random random = new Random();
@@ -27,7 +27,7 @@ public class Enemy implements CollisionActors {
     }
 
     public void update( GameContainer gameContainer, int delta) {
-        y += speed * delta / 1000.0f;
+        this.y += (float) delta / this.speed;
         (shape).setY(y);
     }
 

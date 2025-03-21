@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization.">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionActors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/enemy1.png" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="unversioned Files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +314,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741959971368</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add collision detection for bullets and enemies in SpaceShooter game&#10;&#10;- Implement `CollisionActors` interface for Bullet and Enemy classes.&#10;- Create `checkCollisions` method in `SpaceShooter` class to handle bullet-enemy interactions.&#10;- Modify Bullet and Enemy classes to include collision shape methods.&#10;- Initialize enemy instances dynamically using random positions during game setup.">
+      <option name="closed" value="true" />
+      <created>1742554758053</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742554758053</updated>
+    </task>
+    <task id="LOCAL-00023" summary="unversioned Files">
+      <option name="closed" value="true" />
+      <created>1742554782315</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1742554782315</updated>
+    </task>
+    <task id="LOCAL-00024" summary="unversioned Files">
+      <option name="closed" value="true" />
+      <created>1742554789880</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1742554789880</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,6 +361,8 @@
     <MESSAGE value="Unveersinedfiles" />
     <MESSAGE value="Add initial implementation of SpaceShooter game&#10;&#10;- Create `SpaceShooter` class to manage game setup, including actors and rendering.&#10;- Implement `Actor` interface for consistent update and render methods.&#10;- Add `Rocket`, `Bullet`, `Star`, `Text`, and `background` classes for game elements.&#10;- Implement basic shooting mechanics in `keyPressed` method.&#10;- Set up background scrolling and star generation for visual effects." />
     <MESSAGE value="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of Enemy class for SpaceShooter game&#10;&#10;- Create `Enemy` class to manage enemy behaviors and rendering.&#10;- Implement methods for updating position and rendering the enemy image.&#10;- Load enemy image from resources during initialization." />
+    <MESSAGE value="Add collision detection for bullets and enemies in SpaceShooter game&#10;&#10;- Implement `CollisionActors` interface for Bullet and Enemy classes.&#10;- Create `checkCollisions` method in `SpaceShooter` class to handle bullet-enemy interactions.&#10;- Modify Bullet and Enemy classes to include collision shape methods.&#10;- Initialize enemy instances dynamically using random positions during game setup." />
+    <MESSAGE value="unversioned Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned Files" />
   </component>
 </project>

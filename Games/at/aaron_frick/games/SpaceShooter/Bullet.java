@@ -47,4 +47,4 @@ public class Bullet implements CollisionActors {
     }
 }
 
-// this.y += (float) delta / this.speed;
+

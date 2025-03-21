@@ -14,11 +14,15 @@ public class SpaceShooter extends BasicGame {
     private List<Bullet> bullets;
     private List<Enemy> enemies;
     private Rocket rocket;
-    private background background;
+    private int score;
+    private boolean gameOver;
+    private long gameOverTime;
 
     public SpaceShooter(String title) {
         super(title);
         this.random = new Random();
+        this.score = 0;
+        this.gameOver = false;
     }
 
     @Override
@@ -35,9 +39,7 @@ public class SpaceShooter extends BasicGame {
             this.actors.add(new Star(Star.Size.SMALL));
         }
         for (int i = 0; i < 10; i++) {
-            Enemy enemy= new Enemy(random.nextInt(600),random.nextInt(200)-100,0.2f);
-            this.enemies.add(enemy);
-            this.actors.add(enemy);
+            spawnEnemy();
         }
 
         this.actors.add(new Text("Welcome to SnowWorld v2",275,90));
@@ -50,10 +52,20 @@ public class SpaceShooter extends BasicGame {
 
         @Override
         public void update (GameContainer gameContainer,int delta) throws SlickException {
-            for (Actor actor : this.actors) {
+        if(gameOver){
+            if(System.currentTimeMillis()-gameOverTime > 5000){
+                gameContainer.exit();
+            }
+            return;
+        }
+
+
+
+        for (Actor actor : this.actors) {
                 actor.update(gameContainer,delta);
             }
                 checkCollisions();
+                checkGameOver();
 
         }
 
@@ -63,6 +75,10 @@ public class SpaceShooter extends BasicGame {
             for (Actor actor : this.actors) {
                 actor.render(graphics);
             }
+            graphics.drawString("Score:" + score,10,30);
+            if(gameOver){
+                graphics.drawString("GAME OVER",350, 300);
+            }
 
 
         }
@@ -71,7 +87,7 @@ public class SpaceShooter extends BasicGame {
     public void keyPressed(int key, char c) {
         System.out.println(key);
 
-        if(key == Input.KEY_SPACE) {
+        if(key == Input.KEY_SPACE && !gameOver) {
             System.out.println("Shoot");
             Bullet bullet = new Bullet(rocket.getX() , rocket.getY(), 10);
             this.bullets.add(bullet);
@@ -82,8 +98,6 @@ public class SpaceShooter extends BasicGame {
     }
 
     public void checkCollisions() {
-
-
         Iterator<Bullet> bulletIterator = bullets.iterator();
         while (bulletIterator.hasNext()) {
             Bullet bullet = bulletIterator.next();
@@ -95,9 +109,30 @@ public class SpaceShooter extends BasicGame {
                     enemyIterator.remove();
                     actors.remove(bullet);
                     actors.remove(enemy);
+                    score ++;
+                    spawnEnemy();
                     break;
                 }
             }
+        }
+    }
+
+    public void checkGameOver() {
+        for (Enemy enemy : enemies) {
+            if (enemy.getCollisionShape().getY() > 700) {
+                gameOver = true;
+                gameOverTime = System.currentTimeMillis();
+            }
+        }
+    }
+
+    public void spawnEnemy() {
+        try {
+            Enemy enemy = new Enemy(random.nextInt(750), -50, 5f);
+            this.enemies.add(enemy);
+            this.actors.add(enemy);
+        } catch (SlickException e) {
+            e.printStackTrace();
         }
     }
 
