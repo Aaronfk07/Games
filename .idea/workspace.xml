@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions.">
-      <change afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionHandler.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/CollisionActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/CollisionActors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Rocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/SpaceShooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/background.java" beforeDir="false" afterPath="$PROJECT_DIR$/Games/at/aaron_frick/games/SpaceShooter/actors/background.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Bullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/highscore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/highscore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/SpaceShooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star$Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Star.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/aaron_frick/games/SpaceShooter/background.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,28 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlphaMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnimationTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BigImageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FontTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectParserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParticleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SnowWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SnowWorld_v2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SnowWorld_v3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpaceShooter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TileMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.adaptive.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aaron/Games&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphaMapTest.executor": "Run",
+    "Application.AnimationTest.executor": "Run",
+    "Application.BigImageTest.executor": "Run",
+    "Application.FontTest.executor": "Run",
+    "Application.ImageTest.executor": "Run",
+    "Application.ObjectParserTest.executor": "Run",
+    "Application.ParticleTest.executor": "Run",
+    "Application.SnowWorld.executor": "Run",
+    "Application.SnowWorld_v2.executor": "Run",
+    "Application.SnowWorld_v3.executor": "Run",
+    "Application.SpaceShooter.executor": "Run",
+    "Application.TileMapTest.executor": "Run",
+    "Application.adaptive.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aaron/Games",
+    "settings.editor.selected.configurable": "settings.codegpt.prompts"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aaron\Games\testdata" />
@@ -361,7 +344,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742555990343</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add collision handling and score tracking to SpaceShooter game&#10;&#10;- Implement CollisionHandler to manage bullet and enemy interactions.&#10;- Refactor collision detection logic into the new CollisionHandler class.&#10;- Track and increment score on enemy destruction.&#10;- Update game rendering to display current score and high score.&#10;- Refactor background and enemy classes into an actors package for better organization.&#10;- Ensure game over conditions are checked and handled properly.">
+      <option name="closed" value="true" />
+      <created>1742564895907</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1742564895907</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Unversioned_Files">
+      <option name="closed" value="true" />
+      <created>1742564927296</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1742564927296</updated>
+    </task>
+    <task id="LOCAL-00028" summary="First_own_game_finished">
+      <option name="closed" value="true" />
+      <created>1742564957461</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742564957461</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,6 +405,9 @@
     <MESSAGE value="Add collision detection for bullets and enemies in SpaceShooter game&#10;&#10;- Implement `CollisionActors` interface for Bullet and Enemy classes.&#10;- Create `checkCollisions` method in `SpaceShooter` class to handle bullet-enemy interactions.&#10;- Modify Bullet and Enemy classes to include collision shape methods.&#10;- Initialize enemy instances dynamically using random positions during game setup." />
     <MESSAGE value="unversioned Files" />
     <MESSAGE value="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add score tracking and game over logic in SpaceShooter&#10;&#10;- Implement score variable and initialize to zero.&#10;- Add game over state and handle timing for game over display.&#10;- Update rendering to show score and game over message.&#10;- Refactor enemy spawning logic into a separate method.&#10;- Implement collision detection to manage game over conditions." />
+    <MESSAGE value="Add collision handling and score tracking to SpaceShooter game&#10;&#10;- Implement CollisionHandler to manage bullet and enemy interactions.&#10;- Refactor collision detection logic into the new CollisionHandler class.&#10;- Track and increment score on enemy destruction.&#10;- Update game rendering to display current score and high score.&#10;- Refactor background and enemy classes into an actors package for better organization.&#10;- Ensure game over conditions are checked and handled properly." />
+    <MESSAGE value="Unversioned_Files" />
+    <MESSAGE value="First_own_game_finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="First_own_game_finished" />
   </component>
 </project>

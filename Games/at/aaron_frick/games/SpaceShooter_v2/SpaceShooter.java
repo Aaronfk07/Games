@@ -1,6 +1,6 @@
-package at.aaron_frick.games.SpaceShooter;
+package at.aaron_frick.games.SpaceShooter_v2;
 
-import at.aaron_frick.games.SpaceShooter.actors.*;
+
 import org.newdawn.slick.*;
 
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class SpaceShooter extends BasicGame {
+public class SpaceShooter_v2 extends BasicGame {
     private final Random random;
     private List<Actor> actors;
     private List<Bullet> bullets;
@@ -23,7 +23,7 @@ public class SpaceShooter extends BasicGame {
     private long gameOverTime;
     private static final String HIGHSCORE_FILE = "highscore.txt";
 
-    public SpaceShooter(String title) {
+    public SpaceShooter_v2(String title) {
         super(title);
         this.random = new Random();
         this.actors = new ArrayList<>();
@@ -152,7 +152,7 @@ public class SpaceShooter extends BasicGame {
 
     public static void main(String[] argv) {
         try {
-            AppGameContainer container = new AppGameContainer(new SpaceShooter("SpaceShooter"));
+            AppGameContainer container = new AppGameContainer(new SpaceShooter_v2("SpaceShooter_v2"));
             container.setDisplayMode(800, 600, false);
             container.setShowFPS(false);
             container.start();
